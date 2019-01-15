@@ -1,0 +1,166 @@
+@charset"utf-8";
+
+html{
+  font-size:62.5%;
+  height:100%;
+}
+
+body{
+  height:100%;
+}
+
+.container{
+  width:980px;
+  margin:0 auto;
+  min-height:100%;
+  position:relative;
+}
+
+
+header{
+  height:50px;
+  width:100%;
+  font-size:1.5rem;
+  background-color:#F5B4B3;
+}
+
+.header:after{
+  content:"";
+  clear:both;
+  display:block;
+}
+
+.logo_image{
+  width:110px;
+  margin:0;
+  float:left;
+}
+
+header nav ul{
+  float:right;
+  margin:0;
+  padding:0;
+}
+
+header nav ul li{
+  float:left;
+  padding:15px;
+  list-style:none;
+  width:auto;
+  
+}
+
+header nav ul li a{
+  text-decoration:none;
+  color:#fff;
+  /*padding:15px;*/
+  display:block;
+}
+
+header nav ul li a:hover{
+    text-decoration:underline;
+    
+    
+}
+
+.clearfix:after{
+  clear:both;
+  content:"";
+  display:block;
+}
+
+.main_image{
+  width:100%;
+}
+
+.wrapper{
+  margin-top:10px;
+  padding-bottom: 150px
+}
+
+aside{
+  float:left;
+}
+
+aside ul li{
+  height:6rem;
+  margin-bottom:10px;
+  background-color:#F5B4B3;
+  list-style:none;
+  width:300px;
+  margin-left:-40px;
+}
+
+aside ul li .inq{
+  background-color:#FFEEFF;
+  color:#000000;
+}
+
+aside ul li a{
+  font-size:2rem;
+  padding:2rem;
+  color:#fff;
+  text-decoration:none;
+  display:block;
+}
+
+form{
+  float:left;
+  width:680px;
+  height:350px;
+}
+
+table tr{
+  height:7rem;
+
+}
+
+table tr th{
+  width:150px;
+  text-align:right;
+}
+
+table tr td #name{
+  width:480px;
+  height:1rem;
+}
+
+table tr td #mail{
+  width:480px;
+  height:1rem;
+}
+
+table tr td #inquiry{
+  width:480px;
+  height:6rem;
+}
+
+form p{
+  text-align:center;
+}
+
+form p #submit{
+  width:60px;
+  height:40px;
+}
+
+form p #submit:hover{
+  opacity: 0.55;
+}
+
+footer{
+  width:100%;
+  height:100px;
+  background-color: #4D4D4D;
+  position:absolute;
+  bottom:0;
+  display:table;
+}
+
+footer p{
+  text-align: center;
+  vertical-align: middle;
+  font-size:1rem;
+  color: #fff;
+  display:table-cell;
+}
